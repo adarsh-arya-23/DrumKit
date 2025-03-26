@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drum Kit</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 id="title">Drum <i class="fas fa-drum"></i> Kit</h1>
+    <p class="instructions">Press the keys or click the drums to play!</p>
+    
+    <div class="set">
+      <!-- First row: toms -->
+      <button class="w drum" data-key="w">w</button>
+      <button class="a drum" data-key="a">a</button>
+      <button class="s drum" data-key="s">s</button>
+      <!-- Second row: snare, kick, crash -->
+      <button class="d drum" data-key="d">d</button>
+      <button class="l drum" data-key="l">l</button>
+      <button class="k drum" data-key="k">k</button>
+    </div>
+
+    <div class="keyboard-hint">
+      <p>Use your keyboard keys: W A S D J K L</p>
+    </div>
+  </div>
+
+  <footer>
+    <p class="author">ADARSH ARYA</p>
+  </footer>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
